@@ -93,7 +93,7 @@ pipeline {
                             -o SendEnv=DOCKERHUB_AUTH_PSW \
                             -C "$command1 && $command2 && $command3 && $command3b && $command4"
                     '''
-             
+         
                 }
             }
         }
